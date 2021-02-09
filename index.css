@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    position: absolute;
+    top: 325px;
+    right: 800px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    position: absolute;
+    top: 375px;
+    right: 787px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.active,a:hover{
+    color: white;
+    transition: .5s;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: url(images/background.png);
+    background-position: 0 1000px;
+    font-family: 'Roboto', sans-serif;
+    background-position: fixed;
+}
+
+.github {
+    color: white;
+    font-size: 50px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    position: absolute;
+    top: 450px;
+    right: 865px;
+    text-decoration: none;
+}
+
+.btnabt {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    position: absolute;
+    top: 375px;
+    left: -100px;
+    text-decoration: none;
+}
+
+.btnprj {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    position: absolute;
+    top: 375px;
+    right: -100px;
+    text-decoration: none;
+}
